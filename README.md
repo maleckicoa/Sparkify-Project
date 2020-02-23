@@ -25,7 +25,7 @@ There are two ways to run the attached Project scripts.
 Sparkify is an imaginary music streaming company with thousands of users which generate vast amounts of data.<br>
 The data is difficult to analyze on a single machine, due to its volume size.<br>
 Therefore a Big Data tool such as Spark is needed to analyze this data.<br>
-The goal is to predict customer Churn by using the customer data .<br>
+The end goal is to predict customer Churn.<br>
 
 The Project code is inside the .ipynb Notebook.<br>
 The Notebook consists of following parts:
