@@ -74,7 +74,7 @@ The data also contains information if the user has cancelled the music service o
 
 With this data, 14 features were engneered and used a an input for a classification model to predict Churn <br>
 
-Three models were used, the best performing one was Gradient Boosted Tree Classifier yielding and f1 of 0.81. <br>
+Three models were used, the best performing one was Gradient Boosted Tree Classifier yielding an F1 metric of 0.81 <br>
 
 <b> A detailed step-by-step analysis with results is available [here] </b>
 
