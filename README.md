@@ -43,19 +43,19 @@ The Notebook consists of following parts:
 
 Following files are attached to this repository:
 
--Sparkify_Big.ipynb - Jupyter Notebook with the complete analysis of the full dataset (12GB). Should be run on Amazon AWS.
--Sparkify_Big.html -  the HTML page of the Sparkify_Big.ipynb file
+- Sparkify_Big.ipynb - Jupyter Notebook with the complete analysis of the full dataset (12GB). Should be run on Amazon AWS.
+- Sparkify_Big.html -  the HTML page of the Sparkify_Big.ipynb file
 
--Sparkify_Small.ipynb - Jupyter Notebook with the analysis on a sample dataset (128MB)
--Sparkify_Small.ipyng - the HTML page of the Sparkify_Small.ipynb file
+- Sparkify_Small.ipynb - Jupyter Notebook with the analysis on a sample dataset (128MB)
+- Sparkify_Small.ipyng - the HTML page of the Sparkify_Small.ipynb file
 
 - mini_sparkify_evemt_data.zip - sample data set
 
 The Full Data set is stored on the S3 server:
-"s3n://udacity-dsnd/sparkify/sparkify_event_data.json"
+- "s3n://udacity-dsnd/sparkify/sparkify_event_data.json"
 
 Sample Data Set is also avilable on the S3 server:
-"s3n://udacity-dsnd/sparkify/mini_sparkify_event_data.json"
+- "s3n://udacity-dsnd/sparkify/mini_sparkify_event_data.json"
 
 
 ## Results<a name="results"></a>
