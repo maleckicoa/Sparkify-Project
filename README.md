@@ -54,14 +54,17 @@ Following files are attached to this repository:
 The Full Data set is stored on the S3 server:
 - "s3n://udacity-dsnd/sparkify/sparkify_event_data.json"
 
-Sample Data Set is also avilable on the S3 server:
+Sample Data Set is also available on the S3 server:
 - "s3n://udacity-dsnd/sparkify/mini_sparkify_event_data.json"
 
 
 ## Results<a name="results"></a>
-sparkify_event_data is a 12GB data set
-
-A detailed step-by-step analysis is available [here]
+sparkify_event_data is a 12GB data set with 25 million rows. It contains user data of about 25K users.<br>
+The data contains information about: pages that the user visited, all timestamps, time spent on each page,gender, location, etc. <br>
+The data also contains information if the user has cancelled the music service or not (Churn).<br>
+With this data, 14 features were engneered and used a an input for a classification model to predict Churn <br>
+Three models were used, the best performing one was Gradient Boosted Tree Classifier yielding and f1 of 0.81. <br>
+A detailed step-by-step analysis with results is available [here]
 
 ## Licensing<a name="licensing"></a>
 The Dataset was provided by Udacity https://www.udacity.com/
