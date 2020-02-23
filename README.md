@@ -73,12 +73,12 @@ The data contains information about:
 
 The data also contains information whether the user has cancelled the music service or not (Churn)<br>
 
-Data was used to engineer 14 features which served as an input for a classification model to predict Churn <br>
+Data was used to engineer 14 features which served as an input for classification models to predict Churn <br>
 
-Three models were used on the Full Data set (12GB), the best performing one was Gradient Boosted Tree Classifier yielding an F1 metric of 0.81 <br>
+Three models were used on the full dataset (12GB), the best performing model was Gradient Boosted Tree Classifier yielding an F1 metric of 0.81 <br>
 
 <b> A detailed step-by-step analysis with results is available [here] </b>
 
 ## Licensing<a name="licensing"></a>
-The Dataset was provided by Udacity https://www.udacity.com/ <br>
+The dataset was provided by Udacity https://www.udacity.com/ <br>
 For any questions or concerns regarding the dataset, please contact Udacity
