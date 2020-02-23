@@ -14,7 +14,7 @@ There are two ways to run the attached Project scripts.
 <br>
 1. Locally 
 - You should have Spark installed on your machine
-- Python and PySpark API must installed as well
+- Python and PySpark API must be installed as well
 - Set up all Environment Variables correctly
 
 2. In the Cloud (easier way)
