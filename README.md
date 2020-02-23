@@ -18,7 +18,8 @@ There are two ways to run the attached Project scripts.
 - Set up all Environment Variables correctly
 
 2. In the Cloud (easier way)
-- You shold have an Amazon AWS account (All other requirements are handled by AWS)
+- You shold have an Amazon AWS account <br>
+(All other requirements are handled by AWS)
 
 
 ## Motivation<a name="motivation"></a>
