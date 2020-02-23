@@ -10,7 +10,7 @@
 5. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
-There are two ways to run the Project scripts.
+There are two ways to run the attached Project scripts.
 <br>
 1. Locally 
 - You should have Spark installed on your machine
@@ -18,10 +18,25 @@ There are two ways to run the Project scripts.
 - Set up all Environment Variables correctly
 
 2. In the Cloud (easier way)
-- You shold have an Amazon AWS account (All requirements are handled by AWS)
+- You shold have an Amazon AWS account (All other requirements are handled by AWS)
 
 
 ## Motivation<a name="motivation"></a>
+Sparkify is an imaginary music streaming company with thousands of users which generate vast amounts of data.<br>
+The data is difficult to analyze on a single machine, due to its volume size.<br>
+Therefore a Big Data tool such as Spark is needed to analyze this data.<br>
+The goal is to use the customer data to predict customer Churn.<br>
+
+The Project code is inside the .ipynb Notebook.<br>
+The Notebook consistist of following parts:
+
+- Module import and Module installation
+- PySpark session creation
+- Data Import
+- Data Cleaning
+- Data Aggregation and preparation
+- Classification algorithms are used predict customer Churn
+- Results are evaluated based on common metrics
 
 
 ## Files <a name="files"></a>
