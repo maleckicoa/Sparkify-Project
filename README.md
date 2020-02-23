@@ -51,7 +51,7 @@ Should be run on Amazon AWS
 - Sparkify_Small.ipynb - Jupyter Notebook with the analysis of the sample dataset (128MB)
 - Sparkify_Small.ipyng - the HTML page of the Sparkify_Small.ipynb file
 
-- mini_sparkify_evemt_data.zip - sample data set
+- mini_sparkify_event_data.zip - sample data set
 
 The Full Data set is stored on the S3 server:
 - "s3n://udacity-dsnd/sparkify/sparkify_event_data.json"
@@ -75,7 +75,7 @@ The data also contains information whether the user has cancelled the music serv
 
 Data was used to engineer 14 features which served as an input for a classification model to predict Churn <br>
 
-Three models were used, the best performing one was Gradient Boosted Tree Classifier yielding an F1 metric of 0.81 <br>
+Three models were used on the Full Data set (12GB), the best performing one was Gradient Boosted Tree Classifier yielding an F1 metric of 0.81 <br>
 
 <b> A detailed step-by-step analysis with results is available [here] </b>
 
