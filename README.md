@@ -76,7 +76,7 @@ With this data, 14 features were engneered and used a an input for a classificat
 
 Three models were used, the best performing one was Gradient Boosted Tree Classifier yielding and f1 of 0.81. <br>
 
-A detailed step-by-step analysis with results is available [here]
+<b> A detailed step-by-step analysis with results is available [here] </b>
 
 ## Licensing<a name="licensing"></a>
 The Dataset was provided by Udacity https://www.udacity.com/ <br>
