@@ -7,7 +7,7 @@
 2. [Motivation](#motivation)
 3. [Files](#files)
 4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+5. [Licensing](#licensing)
 
 ## Installation <a name="installation"></a>
 There are two ways to run the attached Project scripts.
@@ -28,9 +28,9 @@ Therefore a Big Data tool such as Spark is needed to analyze this data.<br>
 The goal is to use the customer data to predict customer Churn.<br>
 
 The Project code is inside the .ipynb Notebook.<br>
-The Notebook consistist of following parts:
+The Notebook consists of following parts:
 
-- Module import and Module installation
+- Importing PySpark modules; Installation of some Python modules
 - PySpark session creation
 - Data Import
 - Data Cleaning
@@ -41,12 +41,28 @@ The Notebook consistist of following parts:
 
 ## Files <a name="files"></a>
 
+Following files are attached to this repository:
+
+-Sparkify_Big.ipynb - Jupyter Notebook with the complete analysis of the full dataset (12GB). Should be run on Amazon AWS.
+-Sparkify_Big.html -  the HTML page of the Sparkify_Big.ipynb file
+
+-Sparkify_Small.ipynb - Jupyter Notebook with the analysis on a sample dataset (128MB)
+-Sparkify_Small.ipyng - the HTML page of the Sparkify_Small.ipynb file
+
+- mini_sparkify_evemt_data.zip - sample data set
+
+The Full Data set is stored on the S3 server:
+"s3n://udacity-dsnd/sparkify/sparkify_event_data.json"
+
+Sample Data Set is also avilable on the S3 server:
+"s3n://udacity-dsnd/sparkify/mini_sparkify_event_data.json"
+
 
 ## Results<a name="results"></a>
+sparkify_event_data is a 12GB data set
 
-The main findings of the code can be found at the post available [here]
+A detailed step-by-step analysis is available [here]
 
-## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-
-
-
+## Licensing<a name="licensing"></a>
+The Dataset was provided by Udacity https://www.udacity.com/
+For any questions or concerns regarding the dataset, please contact Udacity
