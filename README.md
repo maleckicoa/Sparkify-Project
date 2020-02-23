@@ -23,12 +23,12 @@ There are two ways to run the attached Project scripts.
 
 
 ## Motivation<a name="motivation"></a>
-Sparkify is an imaginary music streaming company with thousands of users which generate vast amounts of data.<br>
-The data is difficult to analyze on a single machine, due to its volume size.<br>
-Therefore a Big Data tool such as Spark is needed to analyze this data.<br>
+Sparkify is an imaginary music streaming company with thousands of users which generate vast amounts of data<br>
+The data is difficult to analyze on a single machine, due to its volume size<br>
+Therefore a Big Data tool such as Spark is needed to analyze this data<br>
 The end goal is to predict customer Churn.<br>
 
-The Project code is inside the .ipynb Notebook.<br>
+The Project code is inside the .ipynb Notebook<br>
 The Notebook consists of following parts:
 
 - Importing PySpark modules; Installation of some Python modules
@@ -45,7 +45,7 @@ The Notebook consists of following parts:
 Following files are attached to this repository:
 
 - Sparkify_Big.ipynb - Jupyter Notebook with the complete analysis of the full dataset (12GB) <br>
-Should be run on Amazon AWS.
+Should be run on Amazon AWS
 - Sparkify_Big.html -  the HTML page of the Sparkify_Big.ipynb file
 
 - Sparkify_Small.ipynb - Jupyter Notebook with the analysis of the sample dataset (128MB)
@@ -71,9 +71,9 @@ The data contains information about:
 - user location
 - etc. <br>
 
-The data also contains information if the user has cancelled the music service or not (Churn).<br>
+The data also contains information whether the user has cancelled the music service or not (Churn)<br>
 
-With this data, 14 features were engneered and used a an input for a classification model to predict Churn <br>
+Data was used to engineer 14 features which served as an input for a classification model to predict Churn <br>
 
 Three models were used, the best performing one was Gradient Boosted Tree Classifier yielding an F1 metric of 0.81 <br>
 
