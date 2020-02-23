@@ -18,7 +18,7 @@ There are two ways to run the attached Project scripts.
 - Set up all Environment Variables correctly
 
 2. In the Cloud (easier way)
-- You shold have an Amazon AWS account <br>
+- You should have an Amazon AWS account <br>
 (All other requirements are handled by AWS)
 
 
@@ -35,8 +35,8 @@ The Notebook consists of following parts:
 - PySpark session creation
 - Data Import
 - Data Cleaning
-- Data Aggregation and preparation
-- Classification algorithms are used predict customer Churn
+- Data Aggregation and Preparation
+- Classification Algorithms are used to predict customer Churn
 - Results are evaluated based on common metrics
 
 
@@ -48,7 +48,7 @@ Following files are attached to this repository:
 Should be run on Amazon AWS.
 - Sparkify_Big.html -  the HTML page of the Sparkify_Big.ipynb file
 
-- Sparkify_Small.ipynb - Jupyter Notebook with the analysis on a sample dataset (128MB)
+- Sparkify_Small.ipynb - Jupyter Notebook with the analysis of the sample dataset (128MB)
 - Sparkify_Small.ipyng - the HTML page of the Sparkify_Small.ipynb file
 
 - mini_sparkify_evemt_data.zip - sample data set
