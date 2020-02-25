@@ -78,7 +78,7 @@ Data was used to engineer 14 features which served as an input for classificatio
 Three models were used on the full dataset (12GB), the best performing model was Gradient Boosted Tree Classifier yielding an F1 metric of 0.81 <br>
 
 <b> A detailed step-by-step analysis with results is available here: </b> <br>
-https://medium.com/@mihajlovic.aleksa/machine-learning-with-pyspark-and-amazon-emr-3149dbc847ae 
+https://towardsdatascience.com/machine-learning-with-pyspark-and-amazon-emr-3149dbc847ae
 
 ## Licensing<a name="licensing"></a>
 The dataset was provided by Udacity https://www.udacity.com/ <br>
